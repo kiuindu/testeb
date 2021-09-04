@@ -1,4 +1,4 @@
-const io = require('socket.io')(4040)
+const io = require('socket.io')(8080)
 
 const users = {}
 
