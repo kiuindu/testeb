@@ -1,5 +1,5 @@
 console.log("testebb")
-const socket = io('http://localhost:8080')
+const socket = io('https://6133c50aaa4cec9898ce9a54--festive-leakey-93a3c8.netlify.app:8080')
 console.log("teste")
 const messageContainer = document.getElementById('message-container')
 const messageForm = document.getElementById('send-container')
