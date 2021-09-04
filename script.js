@@ -1,6 +1,6 @@
-console.log("testebb")
+console.log(process.env.PORT)
 console.log(window.location.hostname)
-const socket = io(window.location.hostname + ':3000')
+const socket = io(window.location.hostname + (process.env.PORT || 3000))
 console.log("teste")
 const messageContainer = document.getElementById('message-container')
 const messageForm = document.getElementById('send-container')
