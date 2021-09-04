@@ -1,17 +1,28 @@
 {
   "name": "current-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "node server.js"
+    "devStart": "node server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "socket.io": "^2.4.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiuindu/testeb.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/kiuindu/testeb/issues"
+  },
+  "homepage": "https://github.com/kiuindu/testeb#readme",
+  "description": ""
 }
